@@ -1,0 +1,71 @@
+:root {
+  /* colors */
+  --clr-primary-1: #f3effe;   /* default background */
+  --clr-primary-2: #1a1a1a;   /* default art text */
+  --clr-primary-3: #292929;   /* default nav menu */
+  --clr-primary-4: #ff4778;   /* highlight default */
+  --clr-primary-5: #5a5a5a;   /* extra color */
+  --clr-black-1: #000000;
+  --clr-black-2: #292929;
+  --clr-black-3: #454545;
+  --clr-gray-1: #6b6b6b;
+  --clr-gray-2: #8a8a8a;
+  --clr-gray-3: #b8b8b8;
+  --clr-gray-4: #dbdbdb;
+  --clr-white-1: #ebebeb;
+  --clr-white-2: ##ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'MS Sans Serif', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--clr-primary-1);
+  color: var(--clr-primary-3);
+}
+
+.sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  height: 100%;
+  width: 200px;
+}
+
+.article {
+  margin: auto;
+  position: relative;
+  max-width: 75%;
+}
+
+.element-hidden {
+  display: none;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--clr-primary-2);
+  margin: 0;
+  padding: 5px;
+}
+
+.router-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a {
+  color: var(--clr-primary-4);
+}
+
+.element-in-background {
+  opacity: 0.6;
+}

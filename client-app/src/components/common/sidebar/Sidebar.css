@@ -1,0 +1,90 @@
+.sidebar {
+  background: var(--clr-primary-3);
+  color: var(--clr-white-1);
+  height: 100%;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background-color: var(--clr-primary-4);
+}
+
+.sidebar-header {
+  background-color: var(--clr-primary-3);
+  color: var(--clr-gray-3);
+  margin: 0;
+  padding: 13px 0 13px 0;
+  border-bottom: 1px solid var(--clr-primary-4);
+}
+
+.hamburger-btn {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-primary-3);
+  display: inline;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.hamburger-btn-icon {
+  margin-top: 5px;
+}
+
+.hamburger-btn p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.hamburger-btn:hover {
+  color: var(--clr-primary-4);
+}
+
+.hamburger-btn:hover .hamburger-btn-hint {
+  visibility: visible;
+}
+
+.hamburger-btn-hint {
+  visibility: hidden;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  margin-left: 5px;
+  z-index: 1;
+  font-size: 15px;
+  background-color: var(--clr-primary-3);
+  color: var(--clr-white-1);
+}
+
+.close-button {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-primary-3);
+  display: inline;
+  position: fixed;
+  top: 50%;
+  left: 200px;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.close-button:hover {
+  color: var(--clr-primary-4);
+}
